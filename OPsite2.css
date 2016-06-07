@@ -1,0 +1,390 @@
+body{
+  font-family: "Myriad Pro", sans-serif;
+  color: white;
+  }
+
+  nav {
+    position: relative;
+    margin: 0 auto;
+    width: 440px;
+    margin-top: -20px;
+  }
+
+  nav li{
+    font-size: 1.2em;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+
+  }
+
+   #laatsteli{
+     border-right: none;
+   }
+
+  nav li:hover{
+    background-color: rgba(54, 169, 225, 0.5);
+    }
+
+  nav a{
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .logo{
+    position: relative;
+    margin-top: 180px;
+    margin-left: -350px;
+  }
+
+  h1{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 655px;
+  }
+
+  h2{
+    font-size:4em;
+    width: 800px;
+    margin: 70px auto 40px auto;
+    color: rgba(54, 169, 225, 0.6);
+  }
+  video#bgvid {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      background: url(polina.jpg) no-repeat;
+      background-size: cover;
+  }
+
+.eerstepagina{
+  width:1351px;
+  height: 657px;
+  margin: -10px;
+
+}
+
+
+#para1{
+  margin-left: 130px;
+  margin-top: 30px;
+  color: white;
+}
+
+#para1achtergrond{
+  width: 600px;
+  height: 150px;
+  background-image: url("hout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin-left: -50px;
+  padding-top: 5px;
+}
+
+
+
+#para2{
+  margin-left: 20px;
+  margin-top: 30px;
+  color: white;
+}
+
+#para2achtergrond{
+  width: 605px;
+  height: 150px;
+  background-image: url("hout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 30px 0px 0px 30px;
+  margin-left:743px;
+  margin-top: -158px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.producten h2{
+color: white;
+margin-left: 80px;
+margin-top: 20px;
+font-size: 2.5em;
+}
+
+.producten{
+  width:1351px;
+  height: 657px;
+  background-image: url("achtergrond.jpg");
+  background-size: cover;
+  margin: -10px;
+  margin-bottom: 200px;
+  margin-top: -20px;
+
+}
+
+
+.producten p{
+  width: 450px;
+  display: block;
+  color:black;
+}
+
+#container{
+  position: absolute;
+  background-image: url("hout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:1000px;
+  height: 500px;
+  margin-left: 180px;
+
+}
+
+#container div{
+  height: 500px;
+  width: 332px;
+  position: absolute;
+}
+
+#lifestraw img{
+  margin-left: 110px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid grey;
+}
+
+#lifestraw p{
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
+
+#drinkbus{
+  margin-left: 333px;
+  background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
+  background-size:    2px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat:  no-repeat;
+}
+
+#drinkbus img{
+  margin-left: 150px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid grey;
+}
+
+#drinkbus p{
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+
+#watertablet{
+  margin-left: 666px;
+}
+
+#watertablet img{
+  margin-left: 150px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid grey;
+}
+
+#watertablet p{
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+.locatie{
+  width:1351px;
+  height: 657px;
+  background-image: url("achtergrond2.jpg");
+  background-size: cover;
+  margin: -10px;
+  margin-top:-200px;
+  margin-bottom: -20px;
+  padding-bottom: -20px;
+
+}
+
+.locatie h2{
+color: white;
+margin-left: 80px;
+margin-top: 20px;
+font-size: 2.5em;
+}
+
+
+
+#kaart{
+  margin-top: 0px;
+  margin-left: 300px;
+}
+
+
+
+/*menu*/
+
+
+
+/*pijl codepen*/
+
+.pijl1, .pijl2{
+	background-image: url("pijlonder.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.pijl1 {
+  cursor:pointer;
+	height: 40px;
+	width: 60px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+.pijl2{
+  cursor:pointer;
+	height: 40px;
+	width: 60px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: -650px;
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+
+.pijl3{
+  background-image: url("pijlboven.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pijl3{
+  cursor:pointer;
+	height: 40px;
+	width: 60px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: -70px;
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_up 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_up 2s ease-in-out infinite;
+	animation:         ca3_fade_move_up 2s ease-in-out infinite;
+}
+
+.pijl4{
+  cursor:pointer;
+	height: 40px;
+	width: 60px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: -720px;
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_up 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_up 2s ease-in-out infinite;
+	animation:         ca3_fade_move_up 2s ease-in-out infinite;
+}
+
+.pijl4{
+  background-image: url("pijlboven.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
+
+@-webkit-keyframes ca3_fade_move_up {
+  0%   { -webkit-transform:translate(0,20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,-20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_up {
+  0%   { -moz-transform:translate(0,20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,-20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_up {
+  0%   { transform:translate(0,20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,-20px); opacity: 0; }
+}
+/*Pijl codepen*/
